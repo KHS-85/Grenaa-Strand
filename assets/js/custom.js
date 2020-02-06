@@ -1,5 +1,5 @@
 /* ----------------------------
-/*  Name: Grenaa strand
+/*  Name: Grenaa-Strand
     Author: Kenneth
-    Version: 1.0
+    Version: 1.00
 /* -------------------------- */

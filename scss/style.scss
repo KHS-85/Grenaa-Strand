@@ -1,0 +1,54 @@
+
+/* ----------------------------
+/*  Name: Grenaa-Strand
+    Author: Kenneth
+    Version: 1.00
+/* -------------------------- */
+
+
+@import '_variables.scss';
+@import '_mixins.scss';
+
+body{
+    background-color: $base-color;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1{
+  @include headline;
+}
+
+.main-content{
+  @include main;
+    h2{
+      border: solid 2px;
+    }
+}
+
+img{
+  @include responsive;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $alt-color;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}

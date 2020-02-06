@@ -1,0 +1,45 @@
+/* ----------------------------
+/*  Name: Grenaa-Strand
+    Author: Kenneth
+    Version: 1.00
+/* -------------------------- */
+body {
+  background-color: #56bafd;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto; }
+
+h1 {
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 54px;
+  text-decoration: underline;
+  color: white; }
+
+.main-content {
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+  color: white; }
+  .main-content h2 {
+    border: solid 2px; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1d05a8;
+  text-align: center; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
